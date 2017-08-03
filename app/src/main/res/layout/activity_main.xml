@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:gravity="center"
+    tools:context="com.creditapp.MainActivity">
+
+    <TextView
+        android:id="@+id/tvTitleApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CREDIT APP"
+        android:textColor="@color/Verde"
+        android:textSize="45dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="15dp"/>
+
+    <EditText
+        android:id="@+id/edtUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_below="@+id/tvTitleApp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/tvTitleApp"
+        android:layout_alignEnd="@+id/tvTitleApp"
+        android:hint="Usuario"
+        android:singleLine="true"
+        android:ems="10"
+        />
+
+    <EditText
+        android:id="@+id/edtPwd"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:layout_below="@+id/edtUsuario"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/edtUsuario"
+        android:layout_alignEnd="@+id/edtUsuario"
+        android:hint="Contraseña"
+        android:singleLine="true"/>
+
+    <CheckBox
+        android:id="@+id/chkRecordarLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recordar"
+        android:textSize="16dp"
+        android:layout_below="@+id/edtPwd"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/edtPwd"
+        android:layout_alignEnd="@+id/edtPwd"
+        android:textColor="@color/Verde"
+        android:textStyle="bold|italic"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Entrar"
+        android:id="@+id/btnEntrar"
+        android:layout_below="@+id/chkRecordarLogin"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/chkRecordarLogin"
+        android:layout_alignEnd="@+id/chkRecordarLogin" />
+
+</RelativeLayout>

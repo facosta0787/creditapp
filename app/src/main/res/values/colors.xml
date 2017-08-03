@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#757575</color>
+    <color name="colorPrimaryDark">#424242</color>
+    <color name="colorAccent">#43A047</color>
+    <color name="Negro">#000000</color>
+    <color name="Blanco">#FFFFFF</color>
+    <color name="Verde">#43a047</color>
+    <color name="VerdeClaro">#66BB6A</color>
+    <color name="VerdeOscuro">#2E7D32</color>
+    <color name="controlActivado">@color/common_signin_btn_text_light</color>
+    <color name="transparent">#00000000</color>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<!--
+android:icon="@drawable/ic_menu_camera"
+android:icon="@drawable/ic_menu_gallery"
+android:icon="@drawable/ic_menu_slideshow"
+android:icon="@drawable/ic_menu_manage"
+-->
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_clientes"
+            android:title="Clientes" />
+        <item
+            android:id="@+id/nav_venta"
+            android:title="Facturacion" />
+        <item
+            android:id="@+id/nav_cxc"
+            android:title="Recibos" />
+        <item
+            android:id="@+id/nav_utilidades"
+            android:title="Utilidades" />
+        <item
+            android:id="@+id/nav_salir"
+            android:title="Cerrar sesión" />
+    </group>
+
+
+    <!--<item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item> -->
+
+</menu>
